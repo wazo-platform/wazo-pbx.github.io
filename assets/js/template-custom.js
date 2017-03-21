@@ -70,4 +70,13 @@ $(document).ready(function () {
         });
     });
 
+
+    function checkCurrentStableVersion() {
+    $.get("https://mirror.wazo.community/version/stable")
+       .done(function(current_version) {
+           $('#version').html(current_version);
+       })
+    }
+    checkCurrentStableVersion();
+
 });
