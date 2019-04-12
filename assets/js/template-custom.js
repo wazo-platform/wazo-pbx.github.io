@@ -74,6 +74,7 @@ $(document).ready(function () {
     function checkCurrentStableVersion() {
     $.get("https://mirror.wazo.community/version/stable")
        .done(function(current_version) {
+           current_version = '18.03';
            $('#version').html(current_version);
        })
     }
