@@ -1192,6 +1192,14 @@ Features tabs style
   color: #4aa3df;
 }
 
+/* Legals */
+.legals h2 {
+  margin: 20px 0;
+}
+.legals ol.simple {
+  list-style: none;
+}
+
 /**footer style **/
 .footer {
   background: #333;
