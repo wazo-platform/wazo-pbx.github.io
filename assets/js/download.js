@@ -22,8 +22,8 @@ $(function() {
     }
 
     var version = matches[1];
-    var macUrl = baseUrl + 'songbird-' + version + '.dmg';
-    var windowsUrl = baseUrl + 'songbird%20Setup%20' + version + '.exe';
+    var macUrl = baseUrl + 'Songbird-' + version + '.dmg';
+    var windowsUrl = baseUrl + 'Songbird%20Setup%20' + version + '.exe';
     var linuxUrl = baseUrl + 'Songbird-' + version + '.AppImage';
 
     $('.download-button.mac').attr('href', macUrl).removeClass('disabled');
