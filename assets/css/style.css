@@ -1349,6 +1349,28 @@ Features tabs style
   opacity: 1;
 }
 
+/* Download */
+.download.mac, .download.windows, .download.linux {
+  display: none;
+}
+
+.download-buttons {
+  text-align: center;
+}
+
+.download-buttons .btn-lg {
+  margin-bottom: 30px;
+}
+
+.download-section h3 {
+  margin-top: 50px;
+}
+
+.download-section .other-platform {
+  text-align: left;
+  margin: 0;
+}
+
 /***responsive style**/
 @media (max-width: 991px) {
   .hero-parallax .hero-inner .hero-content h1 {
@@ -1442,3 +1464,4 @@ Features tabs style
     line-height: 32px;
   }
 }
+
